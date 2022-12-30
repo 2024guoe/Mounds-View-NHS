@@ -1,0 +1,214 @@
+html , body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  max-width: 100%;
+  max-height: 10%;
+  background-color: white;
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top:7%;
+  padding-bottom:7%;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 4em;
+  letter-spacing: .1em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#green{
+  filter: grayscale(50%) blur(2px) contrast(80%) hue-rotate(120 deg);  
+}
+
+nav{
+  text-align: center;
+}
+
+ul {
+  padding: 1%;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  display: inline-flex;
+  justify-content: center;
+}
+
+li a {
+  color: black;
+  text-decoration: none;  
+  padding: 1em 2em 1em 2em;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: .08em;
+  border-bottom: 1px solid transparent;
+  transition: all ease-in-out .7s;
+}
+
+li a:hover{
+  color: #346f34;
+  border-color: #346f34;
+}
+
+h2{
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  letter-spacing: .06em;
+  margin-left: 10%;
+  margin-right:10%;
+}
+
+p{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: .07em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#news{
+  display: block;
+  width: 50%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.constFrame {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.const{
+  border: 1px solid #346f34;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  align-self: center;
+}
+
+.vTable {
+  margin: 2% 15% 10% 15%;
+  border-collapse: collapse;
+}
+
+tr td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 5px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: .07em;
+}
+
+th {
+  padding-bottom: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: .07em;
+}
+
+/* ian's crazy exec board shit */
+
+.executiveboardPositions {
+  font-size: 1.8em;
+    position: static;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 10vw 10vh 10vw;
+    line-height: 5vh;
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+    padding: 5vh 0 5vh 0;
+    width: 20vw;
+    text-align: center;
+}
+
+.contactEmail {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 15vh 0;
+    width: 20vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.envelopeButton {
+    display: none;
+}
+
+.fa.fa-envelope {
+    color: black;
+    font-size: 2vh;
+    width: 0px;
+    height: 0px;
+    display: none;
+}
+
+.flexcontainerExecBoard {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5vw 0 5vw;
+}
+
+.mobileEmailContainer {
+    display: none;
+}
+
+.executiveboardPictures {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-evenly;
+    width: 20vw;
+    height: 20vw;
+    padding: 0 0vw 0 0vw;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+/* end of ian's crazy exec board shit */
+
+footer {
+  background-color: #346f34;
+  text-align: center;
+  padding: 3vh 0 3vh 0;
+  font-weight: 300;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerText {
+  display: flex;
+}
